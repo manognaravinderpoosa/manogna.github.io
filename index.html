@@ -3,28 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manogna's Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f0f0f0; color: #333; }
-        .container { max-width: 800px; margin: auto; padding: 20px; }
-        h1 { text-align: center; }
-        .project { margin-bottom: 20px; }
-        .project-title { font-weight: bold; }
-    </style>
+    <meta name="description" content="Manogna Ravinder's Portfolio - Web Developer, Freelancer">
+    <meta name="keywords" content="Manogna Ravinder, Web Developer, Portfolio, Freelancer">
+    <meta name="author" content="Manogna Ravinder">
+    <title>Manogna Ravinder - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I’m Manogna, a web developer with skills in HTML, CSS, JavaScript, and Python. Here are some of my projects:</p>
-        <div class="project">
-            <p class="project-title">Smart Campus Navigation App</p>
-            <p>A mobile app for indoor navigation on campus, developed using modern web technologies.</p>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Manogna Ravinder</h1>
+                <p>Web Developer | Freelancer</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="project">
-            <p class="project-title">AI Image Generator</p>
-            <p>A web app that generates images based on user input using AI.</p>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Manogna Ravinder, a passionate web developer and freelancer. I specialize in building responsive and elegant websites. I love creating interactive user experiences and solving complex problems through code. Let's work together!</p>
         </div>
-        <p>Contact me at <a href="mailto:manognaravinder11@gmail.com">manognaravinder11@gmail.com</a></p>
-    </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A personal portfolio website to showcase my work and skills.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: To-Do List App</h3>
+                <p>A simple and intuitive to-do list web app to help you organize tasks.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3: Weather App</h3>
+                <p>An interactive weather app that provides real-time forecasts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Your Name" value="Manogna Ravinder" readonly>
+                <input type="email" placeholder="Your Email" value="manognaravinder11@email.com" readonly>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Manogna Ravinder. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
+
